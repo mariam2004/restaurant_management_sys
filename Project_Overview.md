@@ -5,7 +5,7 @@ The system integrates a graphical user interface (GUI) built using Python's Tkin
 The application allows restaurant staff to take orders, assign them to tables, process payments, and generate receipts.
 Additionally, it features a tab where completed orders can be viewed, including details such as table numbers, payment methods, and items ordered.
 
-3. Key Features
+2. Key Features
 -Menu Management: The system allows the restaurant to maintain a dynamic menu.
 Menu items can be added or removed as needed, and each item is categorized (e.g., Food, Drink, Dessert) with associated pricing.
 -Order Management: Orders can be created by selecting items from the menu.
@@ -20,7 +20,7 @@ items ordered, total cost, and payment method.
 showing details like order ID, table number, total amount, payment method, and the items ordered.
 
 
-5. Technical Components
+3. Technical Components
 -Graphical User Interface (GUI): The GUI is created using Tkinter,
 which provides a user-friendly interface for restaurant staff to interact with the system.
 The interface includes components like buttons, dropdown menus, and list boxes to facilitate easy navigation and operation.
@@ -31,7 +31,7 @@ with fields for storing essential information such as order ID, table number, to
 Object-Oriented Design: The project follows an object-oriented design, with classes such as MenuItem, Order, Table, Staff, Restaurant,
 and Payment encapsulating different aspects of the restaurant’s operations. This modular design makes the system extensible and easy to maintain.
 
-7. Classes and Their Responsibilities
+4. Classes and Their Responsibilities
 -MenuItem: Represents a single item on the restaurant's menu. Each item has a name, price, and category.
 -Order: Manages the items in a customer's order, calculates the total cost, handles payment processing,
 and saves order details to the database. The order is associated with a specific table.
